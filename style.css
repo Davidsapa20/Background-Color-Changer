@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: brown;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.color-button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+    color: black;
+}
+
+.lightblue {
+    background-color: lightblue;
+    color: black;
+}
+
+.olive {
+    background-color: olive;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.pink {
+    background-color: pink;
+    color: black;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.lavender {
+    background-color: lavender;
+    color: black;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.black {
+    background-color: black;
+}
